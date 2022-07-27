@@ -1,0 +1,95 @@
+.main-div {
+  width: 100%;
+  height: 100vh;
+  background: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center-div {
+  width: 25%;
+  height: 60vh;
+  background-color: blanchedalmond;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+h1 {
+  color: rgba(0, 0, 0, 0.86);
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  font-family: "Comfortaa", cursive;
+}
+input {
+  text-align: center;
+  height: 25px;
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 60%;
+  font-size: 20px;
+  font-weight: 400px;
+  border-bottom: 2px solid black;
+  
+}
+.btn {
+  width: 60px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: beige !important;
+  color: black !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% !important;
+}
+.btn:hover {
+  color: blue !important;
+  background-color: white !important;
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+   padding-left: 0px;
+   text-align: left; 
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: black; 
+  text-transform: capitalize;
+  list-style: none;
+}
+.todolist{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.todolist .deleteIcon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    border-radius: 50%;
+    margin: 0 15px 0 15px;
+    padding: 5px;
+    color: brown;
+    box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.3);
+
+}
+.todolist .deleteIcon:hover{
+    background-color: transparent;
+    color: crimson;
+    
+
+}
+@media (mix-width:768px){
+    .center-div{
+        width: 55%;
+    }
+}
+
